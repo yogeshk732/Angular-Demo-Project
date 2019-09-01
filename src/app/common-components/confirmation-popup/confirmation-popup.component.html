@@ -1,0 +1,14 @@
+<h1 mat-dialog-title [innerHTML]="data['heading']" *ngIf="data['heading']"> {{data['heading']}}</h1>
+<div mat-dialog-content [class]="data['class']">
+  <p [innerHTML]="data['subHeading']">{{data['subHeading']}}</p>
+  <p [innerHTML]="data['subHeading2Image']">{{data['subHeading2Image']}}</p>
+  <p [innerHTML]="data['subHeading2']">{{data['subHeading2']}}</p>
+</div>
+
+<div style="text-align: center">
+  <button mat-raised-button color="primary" cdkFocusInitial (click)="onNoClick()" style="margin-right:10px;"
+    *ngIf="data['cancelButtonText']">
+    {{data['cancelButtonText']}}</button>
+  <button mat-raised-button color="primary" class="theme-btn" (click)="onYesClick()"
+    *ngIf="data['okButtonText']">{{data['okButtonText']}}</button>
+</div>

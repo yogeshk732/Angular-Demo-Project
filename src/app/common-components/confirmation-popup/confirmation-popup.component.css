@@ -1,0 +1,49 @@
+.mat-dialog-title {
+  margin: 0 0 0px !important;
+  display: block !important;
+  border-bottom: 1px solid #ddd !important;
+  padding-bottom: 12px !important;
+}
+
+
+.i-message-page {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+img.i-verify-image {
+  display: block;
+  width: 96px;
+  height: 97px;
+  margin: 40px auto 20px;
+}
+
+
+
+.i-message-page h2 {
+  color: #58708A;
+  margin: 20px auto;
+  font-size: 28px;
+  text-align: center;
+}
+
+.i-text-primary,
+.i-text-success {
+  color: #42C662 !important;
+}
+
+.i-message-page p {
+  color: #58708A;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+}
+
+a.btn.btn-primary {
+  margin-top: 35px;
+  margin-right: 10px;
+}
+
+.align-center {
+  text-align: center;
+}
